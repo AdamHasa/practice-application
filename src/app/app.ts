@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { TopBar } from './top-bar/top-bar';
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink, TopBar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

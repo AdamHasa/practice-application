@@ -1,0 +1,68 @@
+.topbar {
+    height: 60px;
+    background-color: #14181c;
+    border-bottom: 1px solid #2c3440;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    gap: 28px;
+}
+
+.center a {
+    color: #9ab;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+}
+
+.center a:hover {
+    color: #ffffff;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.login {
+    color: #9ab;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.login:hover {
+    color: #ffffff;
+}
+
+.signup {
+    background-color: #00c030;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.signup:hover {
+    background-color: #00e054;
+}
