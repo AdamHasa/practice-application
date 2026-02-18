@@ -1,17 +1,35 @@
-<header class="topbar">
-    <div class="left">
-        <span class="logo">TestApplicatie</span>
+<header class="bg-[#14181c] border-b border-[#2c3440] h-[60px] flex items-center px-10 justify-between">
+
+    <!-- Left -->
+    <div class="text-white font-bold text-lg tracking-wide cursor-pointer">
+        TestApplicatie
     </div>
 
-    <nav class="center">
-        <a routerLink="/">Films</a>
-        <a routerLink="/reviews">Reviews</a>
-        <a routerLink="/lists">Lists</a>
-        <a routerLink="/members">Members</a>
+    <!-- Center -->
+    <nav class="hidden md:flex gap-7 text-sm uppercase tracking-wider">
+        <a routerLink="/" class="text-[#9ab] hover:text-white transition">
+            Films
+        </a>
+        <a routerLink="/reviews" class="text-[#9ab] hover:text-white transition">
+            Reviews
+        </a>
+        <a routerLink="/lists" class="text-[#9ab] hover:text-white transition">
+            Lists
+        </a>
+        <a routerLink="/members" class="text-[#9ab] hover:text-white transition">
+            Members
+        </a>
     </nav>
 
-    <div class="right">
-        <a routerLink="/login" class="login">Sign in</a>
-        <button class="signup">Create Account</button>
+    <!-- Right -->
+    <div class="flex items-center gap-4">
+        <a routerLink="/login" class="text-[#9ab] text-sm hover:text-white transition">
+            Sign in
+        </a>
+
+        <button class="bg-[#00c030] hover:bg-[#00e054] text-black text-sm font-semibold px-4 py-2 rounded transition">
+            Create Account
+        </button>
     </div>
+
 </header>
